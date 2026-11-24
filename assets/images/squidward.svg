@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 230" width="100%" height="100%">
+  <!-- Squidward Tentacles -->
+  <defs>
+    <filter id="sq-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Shirt (Brown Polo) -->
+  <path d="M 60 160 L 120 160 L 128 215 L 52 215 Z" fill="#C27D38" stroke="#000" stroke-width="2.5"/>
+  <!-- Collar -->
+  <polygon points="90,160 80,175 90,172 100,175" fill="#8B4513" stroke="#000" stroke-width="1.5"/>
+  <path d="M 60 160 L 75 178 L 68 185 L 52 165 Z" fill="#C27D38" stroke="#000" stroke-width="2"/>
+  <path d="M 120 160 L 105 178 L 112 185 L 128 165 Z" fill="#C27D38" stroke="#000" stroke-width="2"/>
+
+  <!-- Neck -->
+  <rect x="80" y="140" width="20" height="25" fill="#7ECEC5" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Head (Large round oval with characteristic indent) -->
+  <path d="M 90 28 
+           C 52 28, 48 65, 52 95 
+           C 54 115, 62 135, 76 142 
+           L 104 142 
+           C 118 135, 126 115, 128 95 
+           C 132 65, 128 28, 90 28 Z" 
+        fill="#7ECEC5" stroke="#000" stroke-width="3" filter="url(#sq-shadow)"/>
+
+  <!-- Head Spots -->
+  <ellipse cx="72" cy="46" rx="4" ry="3" fill="#58AFA6" opacity="0.7"/>
+  <ellipse cx="88" cy="38" rx="5" ry="3" fill="#58AFA6" opacity="0.7"/>
+  <ellipse cx="106" cy="48" rx="4" ry="3" fill="#58AFA6" opacity="0.7"/>
+
+  <!-- Big Droopy Nose -->
+  <path d="M 83 95 
+           C 80 120, 72 138, 90 138 
+           C 108 138, 100 120, 97 95 Z" 
+        fill="#7ECEC5" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Eyes (Half-closed / deadpan expression) -->
+  <ellipse cx="73" cy="85" rx="14" ry="17" fill="#FFFDE6" stroke="#000" stroke-width="2.5"/>
+  <path d="M 59 83 Q 73 90 87 83" fill="#7ECEC5" stroke="#000" stroke-width="2"/>
+  <rect x="70" y="85" width="6" height="10" fill="#931A00" rx="2"/>
+
+  <ellipse cx="107" cy="85" rx="14" ry="17" fill="#FFFDE6" stroke="#000" stroke-width="2.5"/>
+  <path d="M 93 83 Q 107 90 121 83" fill="#7ECEC5" stroke="#000" stroke-width="2"/>
+  <rect x="104" y="85" width="6" height="10" fill="#931A00" rx="2"/>
+
+  <!-- Mouth (Smug / nonchalant curve) -->
+  <path d="M 72 142 Q 90 136 108 142" fill="none" stroke="#000" stroke-width="2.5"/>
+  <!-- Wrinkle lines -->
+  <path d="M 80 62 Q 90 60 100 62" fill="none" stroke="#58AFA6" stroke-width="2"/>
+</svg>

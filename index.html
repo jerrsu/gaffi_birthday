@@ -3,152 +3,242 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#080d2c">
-  <meta name="description" content="Undangan ulang tahun ke-5 GAFFI — Mission: Level 5 Unlocked!">
-  <title>GAFFI's 5th Birthday — Space Adventure</title>
+  <meta name="theme-color" content="#0284c7">
+  <meta name="description" content="Undangan ulang tahun ke-5 GAFFI — Petualangan Bawah Laut Bikini Bottom bersama SpongeBob & Teman-Teman!">
+  <title>GAFFI's 5th Birthday — SpongeBob Undersea Adventure</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700;800&family=Luckiest+Guy&family=Nunito:wght@400;600;700;800;900;1000&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="stars stars-a" aria-hidden="true"></div>
-  <div class="stars stars-b" aria-hidden="true"></div>
+  <!-- Floating Bikini Bottom Flower Clouds -->
+  <div class="flower-cloud flower-1" aria-hidden="true"></div>
+  <div class="flower-cloud flower-2" aria-hidden="true"></div>
+  <div class="flower-cloud flower-3" aria-hidden="true"></div>
+  <div class="flower-cloud flower-4" aria-hidden="true"></div>
+  <div class="flower-cloud flower-5" aria-hidden="true"></div>
+
+  <!-- Rising Bubbles Background -->
+  <div class="bubbles-bg" aria-hidden="true">
+    <div class="bubble b1"></div>
+    <div class="bubble b2"></div>
+    <div class="bubble b3"></div>
+    <div class="bubble b4"></div>
+    <div class="bubble b5"></div>
+    <div class="bubble b6"></div>
+    <div class="bubble b7"></div>
+    <div class="bubble b8"></div>
+    <div class="bubble b9"></div>
+    <div class="bubble b10"></div>
+  </div>
 
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="GAFFI Home"><span class="brand-planet">🪐</span> GAFFI</a>
+    <a class="brand" href="#home" aria-label="GAFFI Home">
+      <span class="brand-pineapple">🍍</span> GAFFI
+    </a>
     <nav class="nav-links" aria-label="Navigasi utama">
-      <a href="#home">Home</a><a href="#mission">Mission</a><a href="#gallery">Gallery</a><a href="#guestbook">Guestbook</a>
+      <a href="#home">Home</a>
+      <a href="#mission">Pesta</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#guestbook">Guestbook</a>
     </nav>
-    <!-- <a class="nav-cta" href="#rsvp">Join the mission <span>↗</span></a> -->
   </header>
 
   <main>
     <section class="hero section-wrap" id="home">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-dot"></span> YOU ARE INVITED TO A SPACE ADVENTURE</p>
+        <p class="eyebrow"><span class="eyebrow-bubble">🫧</span> YOU ARE INVITED TO BIKINI BOTTOM!</p>
         <h1>GAFFI<br><span class="age">5<sup>th</sup></span> BIRTHDAY</h1>
-        <div class="mission-ribbon">MISSION: LEVEL 5 UNLOCKED!</div>
-        <p class="hero-desc">Siapkan roketmu, kita rayakan hari spesial bersama di luar angkasa!</p>
-        <a class="button button-gold" href="#mission"><span>🚀</span> Buka Undangan <span>↓</span></a>
-      </div>
-      <div class="hero-visual">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <span class="floating-planet planet-one">🪐</span>
-        <span class="floating-planet planet-two">🌎</span>
-        <span class="floating-star star-one">✦</span><span class="floating-star star-two">✧</span>
-        <div class="photo-frame">
-          <span class="photo-label">OUR LITTLE ASTRONAUT</span>
-          <img src="assets/images/gaffi-original.jpeg" alt="Foto asli GAFFI" class="gaffi-photo">
+        <div class="mission-ribbon">
+          <span class="ribbon-flower">🌸</span> MISSION: LEVEL 5 UNLOCKED! <span class="ribbon-flower">🌸</span>
         </div>
-        <div class="rocket-sticker" aria-hidden="true">🚀</div>
-        <div class="photo-note">Captain GAFFI<br><strong>Ready for takeoff!</strong></div>
+        <p class="hero-desc">Siapkan pakaian selammu! Kita rayakan hari spesial bersama SpongeBob, Patrick, dan teman-teman di bawah laut Bikini Bottom!</p>
+        <div class="hero-actions">
+          <a class="button button-sponge" href="#mission"><span>🍍</span> Buka Undangan <span>↓</span></a>
+        </div>
       </div>
-      <div class="countdown-panel" aria-label="Hitung mundur ulang tahun">
-        <div class="countdown-heading"><span>✦</span> COUNTDOWN TO TAKEOFF <span>✦</span></div>
+
+      <div class="hero-visual">
+        <!-- Floating Jellyfish -->
+        <div class="floating-jelly jf-top" aria-hidden="true">
+          <img src="assets/images/squidward.png" alt="" width="86" height="120">
+        </div>
+        <div class="floating-jelly jf-bottom" aria-hidden="true">
+          <img src="assets/images/jellyfish.png" alt="" width="44" height="55">
+        </div>
+
+        <!-- Undersea Porthole Photo Frame with GAFFI -->
+        <div class="photo-frame">
+          <div class="porthole-rim">
+            <span class="rivet r-t"></span><span class="rivet r-b"></span>
+            <span class="rivet r-l"></span><span class="rivet r-r"></span>
+            <span class="photo-label">OUR BIKINI BOTTOM HERO</span>
+            <img src="assets/images/gaffi.jpeg" alt="Foto asli GAFFI" class="gaffi-photo">
+          </div>
+        </div>
+
+        <!-- SpongeBob Waving on the Side -->
+        <div class="character-sticker spongebob-sticker" aria-label="SpongeBob SquarePants">
+          <img src="assets/images/patrick.png" alt="SpongeBob" width="135" height="160">
+        </div>
+
+        <!-- Patrick Joyful on the Other Side -->
+        <div class="character-sticker patrick-sticker" aria-label="Patrick Star">
+          <img src="assets/images/spongebob.png" alt="Patrick Star" width="125" height="155">
+        </div>
+
+        <!-- Gary the Snail -->
+        <div class="character-sticker gary-sticker" aria-label="Gary the Snail">
+          <img src="assets/images/garry.png" alt="Gary" width="85" height="75">
+          <span class="gary-bubble">Meow~ 🫧</span>
+        </div>
+
+        <!-- Captain Note -->
+        <div class="photo-note">
+          Captain GAFFI<br><strong>"I'm Ready, I'm Ready!" 🍍</strong>
+        </div>
+      </div>
+
+      <!-- Countdown to Party -->
+      <div class="countdown-panel" aria-label="Hitung mundur pesta ulang tahun">
+        <div class="countdown-heading">
+          <span>🪼</span> COUNTDOWN TO PARTY TIME <span>🪼</span>
+        </div>
         <div class="countdown-grid">
           <div class="count-cell"><strong id="days">00</strong><span>HARI</span></div>
           <div class="count-cell"><strong id="hours">00</strong><span>JAM</span></div>
           <div class="count-cell"><strong id="minutes">00</strong><span>MENIT</span></div>
           <div class="count-cell"><strong id="seconds">00</strong><span>DETIK</span></div>
         </div>
-        <p id="countdown-message" class="countdown-message">Menuju hari petualangan GAFFI!</p>
+        <p id="countdown-message" class="countdown-message">Menuju hari petualangan GAFFI di Bikini Bottom!</p>
       </div>
     </section>
 
+    <!-- Destination / Party Section -->
     <section class="mission-section section-wrap" id="mission">
       <div class="section-heading">
-        <p class="eyebrow">YOUR DESTINATION</p>
+        <p class="eyebrow"><span class="eyebrow-bubble">🫧</span> YOUR UNDERSEA DESTINATION</p>
         <h2>Birthday <span>Mission</span></h2>
-        <p>Catat koordinatnya. Jangan sampai salah planet!</p>
+        <p>Catat koordinatnya. Jangan sampai salah karang laut!</p>
       </div>
       <div class="event-grid">
         <article class="event-card event-main">
-          <div class="event-icon">📅</div><div><span class="card-kicker">MISSION DATE</span><h3>Sabtu, 5 Desember 2026</h3><p>Mulai pukul <strong>10.00 WIB</strong></p></div>
+          <div class="event-icon">📅</div>
+          <div>
+            <span class="card-kicker">MISSION DATE</span>
+            <h3>Sabtu, 5 Desember 2026</h3>
+            <p>Mulai pukul <strong>11.00 WIB</strong></p>
+          </div>
         </article>
         <article class="event-card">
-          <div class="event-icon">📍</div><div><span class="card-kicker">DESTINATION</span><h3>Gaffi's House</h3><p>Jl. Cibangkong No. 182A<br>RT 1 RW 11</p></div>
+          <div class="event-icon">🏡</div>
+          <div>
+            <span class="card-kicker">DESTINATION</span>
+            <h3>Gaffi House</h3>
+            <p>Jl. Cibangkong No. 182A<br>RT 1 RW 11</p>
+          </div>
         </article>
         <article class="event-card">
-          <div class="event-icon">👕</div><div><span class="card-kicker">DRESS CODE</span><h3>Casual & Comfortable</h3><p>Bebas pakai pakaian favoritmu. Yang penting nyaman dan siap seru-seruan bersama GAFFI!</p></div>
+          <div class="event-icon">👕</div>
+          <div>
+            <span class="card-kicker">DRESS CODE</span>
+            <h3>Casual & Comfortable</h3>
+            <p>Bebas pakai pakaian favoritmu. Yang penting nyaman dan siap seru-seruan bersama GAFFI!</p>
+          </div>
         </article>
       </div>
-      <!-- <a class="button button-outline map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/place/Bandung,+Cibangkong,+Batununggal,+Bandung+City,+West+Java+40273/@-6.9224113,107.6335725,19z/data=!3m1!4b1!4m6!3m5!1s0x2e68e7d9f6dc6e63:0x93bec482fd10e97!8m2!3d-6.9224126!4d107.6342162!16s%2Fg%2F11trp9bm_q?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D">📍 Buka lokasi di Google Maps ↗</a> -->
-      <a class="button button-outline map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/place/Bandung">📍 Buka lokasi di Google Maps ↗</a>
+      <a class="button button-outline map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/place/Bandung,+Cibangkong,+Batununggal,+Bandung+City,+West+Java+40273/@-6.9224113,107.6335725,19z/data=!3m1!4b1!4m6!3m5!1s0x2e68e7d9f6dc6e63:0x93bec482fd10e97!8m2!3d-6.9224126!4d107.6342162!16s%2Fg%2F11trp9bm_q?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D">📍 Buka lokasi di Google Maps ↗</a>
+      <!-- <a class="button button-outline map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/place/Bandung">📍 Buka lokasi di Google Maps ↗</a> -->
     </section>
 
+    <!-- Gallery Section -->
     <section class="gallery-section section-wrap" id="gallery">
       <div class="section-heading">
-        <p class="eyebrow">MEMORIES FROM EARTH</p>
-        <h2>Space <span>Gallery</span></h2>
-        <p>Beberapa potret kapten kecil kita. Foto tambahan bisa dipasang nanti.</p>
+        <p class="eyebrow"><span class="eyebrow-bubble">🫧</span> MEMORIES UNDER THE SEA</p>
+        <h2>Undersea <span>Gallery</span></h2>
+        <p>Beberapa potret kapten kecil kita. Foto petualangan tambahan bisa dipasang nanti!</p>
       </div>
       <div class="gallery-grid">
-        <figure class="gallery-photo gallery-photo-main"><img src="assets/images/gaffi-original.jpeg" alt="GAFFI — foto asli" loading="lazy"><figcaption>Captain GAFFI</figcaption></figure>
-        <div class="gallery-placeholder"><span>🪐</span><strong>More memories</strong><small>Foto petualangan berikutnya segera hadir</small></div>
-        <div class="gallery-placeholder gallery-placeholder-alt"><span>🌟</span><strong>Birthday moments</strong><small>Let's make new memories!</small></div>
-      </div>
-    </section>
-
-    <!-- <section class="rsvp-section section-wrap" id="rsvp">
-      <div class="section-heading">
-        <p class="eyebrow">MISSION CONTROL</p>
-        <h2>Confirm Your <span>Attendance</span></h2>
-        <p>Kami tunggu kabar dari kru luar angkasa!</p>
-      </div>
-      <div class="form-card">
-        <div class="form-side"><span class="big-astronaut">👨‍🚀</span><h3>Will you join us?</h3><p>Konfirmasi kehadiranmu agar kami bisa menyiapkan tempat terbaik.</p><div class="form-side-stars">✦　✧　✦</div></div>
-        <form id="rsvp-form" class="form-fields">
-          <label for="rsvp-name">Nama tamu</label>
-          <input id="rsvp-name" name="name" type="text" maxlength="80" placeholder="Nama kamu" required>
-          <label for="rsvp-attendance">Konfirmasi kehadiran</label>
-          <select id="rsvp-attendance" name="attendance" required><option value="">Pilih jawaban</option><option value="Hadir">🚀 Ya, saya akan hadir!</option><option value="Tidak hadir">Belum bisa hadir</option></select>
-          <label for="rsvp-count">Jumlah orang</label>
-          <select id="rsvp-count" name="guestCount"><option value="1">1 orang</option><option value="2">2 orang</option><option value="3">3 orang</option><option value="4">4 orang</option><option value="5">5 orang</option></select>
-          <label for="rsvp-message">Pesan (opsional)</label>
-          <textarea id="rsvp-message" name="message" rows="3" maxlength="300" placeholder="Tulis pesan untuk GAFFI..."></textarea>
-          <button class="button button-gold submit-button" type="submit"><span>🛸</span> Kirim Konfirmasi</button>
-          <p id="rsvp-status" class="form-status" role="status" aria-live="polite"></p>
-          <p class="privacy-note">Data RSVP hanya digunakan untuk persiapan acara.</p>
-        </form>
-      </div>
-    </section> -->
-
-    <section class="guestbook-section section-wrap" id="guestbook">
-      <div class="section-heading">
-        <p class="eyebrow">A MESSAGE FROM YOUR CREW</p>
-        <h2>Birthday <span>Guestbook</span></h2>
-        <p>Tinggalkan ucapan manis untuk GAFFI!</p>
-      </div>
-      <div class="guestbook-layout">
-        <form id="guestbook-form" class="guestbook-form">
-          <label for="guestbook-name">Nama kamu</label>
-          <input id="guestbook-name" maxlength="60" placeholder="Tulis nama..." required>
-          <label for="guestbook-message">Ucapan untuk GAFFI</label>
-          <textarea id="guestbook-message" rows="4" maxlength="240" placeholder="Happy birthday, Gaffi! Semoga..." required></textarea>
-          <button class="button button-gold" type="submit">💌 Simpan Ucapan</button>
-          <p id="guestbook-status" class="form-status" role="status" aria-live="polite"></p>
-          <small class="local-note">Ucapan disimpan di browser/perangkat ini saja, bukan dibagikan ke perangkat tamu lain.</small>
-        </form>
-        <div class="guestbook-list-wrap">
-          <div class="guestbook-list-heading"><h3>Pesan dari kru <span id="guestbook-count">(0)</span></h3><button id="clear-guestbook" class="text-button" type="button">Hapus ucapan lokal</button></div>
-          <div id="guestbook-list" class="guestbook-list" aria-live="polite"><p class="empty-state">Belum ada ucapan. Jadilah yang pertama! ✨</p></div>
+        <figure class="gallery-photo gallery-photo-main">
+          <img src="assets/images/gaffi2.jpeg" alt="GAFFI — foto asli" loading="lazy">
+          <figcaption>Captain GAFFI 🍍</figcaption>
+        </figure>
+        <div class="gallery-placeholder">
+          <img src="assets/images/home.png" alt="Rumah Nanas SpongeBob" width="90" height="110" class="gallery-icon-img">
+          <strong>Pineapple House</strong>
+          <small>Rumah nanas di bawah laut siap menyambutmu</small>
+        </div>
+        <div class="gallery-placeholder gallery-placeholder-alt">
+          <img src="assets/images/cam.png" alt="Krabby Patty" width="100" height="90" class="gallery-icon-img">
+          <strong>Party Moments</strong>
+          <small>Let's make fun memories together!</small>
         </div>
       </div>
     </section>
 
+    <!-- Guestbook Section -->
+    <section class="guestbook-section section-wrap" id="guestbook">
+      <div class="section-heading">
+        <p class="eyebrow"><span class="eyebrow-bubble">🫧</span> A MESSAGE FROM YOUR CREW</p>
+        <h2>Birthday <span>Guestbook</span></h2>
+        <p>Tinggalkan ucapan manis untuk GAFFI dari warga Bikini Bottom!</p>
+      </div>
+      <div class="guestbook-layout">
+        <form id="guestbook-form" class="guestbook-form">
+          <label for="guestbook-name">Nama kamu</label>
+          <input id="guestbook-name" maxlength="60" placeholder="Tulis namamu..." required>
+          <label for="guestbook-message">Ucapan untuk GAFFI</label>
+          <textarea id="guestbook-message" rows="4" maxlength="240" placeholder="Happy 5th Birthday Gaffi! Semoga sehat selalu dan..." required></textarea>
+          <button class="button button-sponge" type="submit">💌 Simpan Ucapan</button>
+          <p id="guestbook-status" class="form-status" role="status" aria-live="polite"></p>
+          <small class="local-note">Ucapan disimpan di browser/perangkat ini saja, bukan dibagikan ke perangkat tamu lain.</small>
+        </form>
+        <div class="guestbook-list-wrap">
+          <div class="guestbook-list-heading">
+            <h3>Pesan dari sahabat <span id="guestbook-count">(0)</span></h3>
+            <!-- <button id="clear-guestbook" class="text-button" type="button">Hapus ucapan lokal</button> -->
+          </div>
+          <div id="guestbook-list" class="guestbook-list" aria-live="polite">
+            <p class="empty-state">Belum ada ucapan. Jadilah yang pertama memberi selamat! 🫧✨</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing Section -->
     <section class="closing-section section-wrap">
-      <div class="closing-planet" aria-hidden="true">🌍</div>
-      <p class="eyebrow">END OF TRANSMISSION</p>
-      <h2>Thank You, Space Explorer!</h2>
-      <p>Terima kasih sudah menjadi bagian dari petualangan ulang tahun GAFFI.</p>
-      <strong>See you among the stars! ✨</strong>
-      <div class="closing-signature">With love,<br><span>Gaffi & Family ♡</span></div>
-      <a class="button button-outline" target="_blank" rel="noopener" href="https://wa.me/?text=Yuk%20hadir%20di%20ulang%20tahun%20ke-5%20GAFFI%20pada%205%20Desember%202026%20pukul%2010.00%20WIB!">Bagikan undangan via WhatsApp ↗</a>
+      <div class="closing-characters" aria-hidden="true">
+        <!-- <img src="assets/images/plank.png" alt="Squidward" width="165" height="185" class="closing-sq"> -->
+        <img src="assets/images/all.png" alt="Pineapple House" width="400" height="255" class="closing-house">
+        <!-- <img src="assets/images/crab.png" alt="Gary" width="220" height="200" class="closing-gary"> -->
+      </div>
+      <!-- <p class="eyebrow"><span class="eyebrow-bubble">🫧</span> BEST DAY EVER!</p> -->
+      <h2>Thank You, Friends!</h2>
+      <p>Terima kasih sudah menjadi bagian dari petualangan ulang tahun ke-5 GAFFI.</p>
+      <strong>See you under the sea in Bikini Bottom! 🍍🫧</strong>
+      <div class="closing-signature">
+        With love,<br><span>Gaffi & Family ♡</span>
+      </div>
+      <a class="button button-outline whatsapp-button" target="_blank" rel="noopener" href="https://wa.me/?text=Yuk%20hadir%20di%20ulang%20tahun%20ke-5%20GAFFI%20bawah%20laut%20Bikini%20Bottom%20pada%20Sabtu%2C%205%20Desember%202026%20pukul%2010.00%20WIB!">
+        <span>💬</span> Bagikan undangan via WhatsApp <span>↗</span>
+      </a>
     </section>
   </main>
 
-  <footer class="site-footer"><span>© 2026 GAFFI SPACE ADVENTURE</span><span>MADE WITH ♡ BY GAFFI'S FAMILY</span></footer>
+  <!-- Sea Floor Bed with Swaying Kelp / Sea Plants -->
+  <div class="seabed" aria-hidden="true">
+    <div class="kelp kelp-1"></div>
+    <div class="kelp kelp-2"></div>
+    <div class="kelp kelp-3"></div>
+    <div class="kelp kelp-4"></div>
+  </div>
+
+  <footer class="site-footer">
+    <span>© 2026 GAFFI BIKINI BOTTOM ADVENTURE</span>
+    <span>MADE WITH ♡ BY GAFFI'S FAMILY</span>
+  </footer>
+
   <script src="js/config.js"></script>
   <script src="js/countdown.js"></script>
   <script src="js/rsvp.js"></script>

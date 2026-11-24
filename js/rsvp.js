@@ -1,5 +1,6 @@
 (() => {
   const form = document.getElementById("rsvp-form");
+  if (!form) return;
   const status = document.getElementById("rsvp-status");
   const submitButton = form.querySelector('button[type="submit"]');
 

@@ -8,7 +8,7 @@
     if (remaining <= 0) {
       ids.forEach(id => { document.getElementById(id).textContent = "00"; });
       document.getElementById("countdown-message").textContent =
-        remaining > -86400000 ? "Hari ini waktunya berpesta! 🎉" : "Terima kasih sudah merayakan bersama GAFFI!";
+        remaining > -86400000 ? "Hari ini waktunya berpesta di Bikini Bottom! 🍍🎉" : "Terima kasih sudah merayakan bersama GAFFI!";
       return;
     }
     const values = [

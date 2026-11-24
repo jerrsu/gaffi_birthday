@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 260" width="100%" height="100%">
+  <!-- Ultra Cute Patrick Star with Birthday Party Hat -->
+  <defs>
+    <filter id="pat-shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-opacity="0.22"/>
+    </filter>
+    <radialGradient id="pat-body-grad" cx="45%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#FFB3C2"/>
+      <stop offset="60%" stop-color="#FFA2B4"/>
+      <stop offset="100%" stop-color="#F47D93"/>
+    </radialGradient>
+    <linearGradient id="pat-hat-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="60%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Arm (Joyful / Jumping pose) -->
+  <path d="M 68 135 C 32 110, 18 92, 24 82 C 32 74, 55 96, 76 122 Z" 
+        fill="#FFA2B4" stroke="#2B1500" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Right Arm (Joyful / Jumping pose) -->
+  <path d="M 142 135 C 178 110, 192 92, 186 82 C 178 74, 155 96, 134 122 Z" 
+        fill="#FFA2B4" stroke="#2B1500" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Little Stumpy Legs -->
+  <path d="M 66 210 C 60 235, 68 248, 82 248 C 94 248, 96 230, 96 212 Z" 
+        fill="#FFA2B4" stroke="#2B1500" stroke-width="3"/>
+  <path d="M 144 210 C 150 235, 142 248, 128 248 C 116 248, 114 230, 114 212 Z" 
+        fill="#FFA2B4" stroke="#2B1500" stroke-width="3"/>
+
+  <!-- Star Body & Pointy Head -->
+  <path d="M 105 32 
+           C 118 52, 128 88, 142 130
+           C 162 162, 158 212, 152 218
+           L 58 218
+           C 52 212, 48 162, 68 130
+           C 82 88, 92 52, 105 32 Z" 
+        fill="url(#pat-body-grad)" stroke="#2B1500" stroke-width="3.5" filter="url(#pat-shadow)"/>
+
+  <!-- Cute Freckles / Spots -->
+  <ellipse cx="92" cy="70" rx="3.5" ry="4.5" fill="#E2657E" opacity="0.6"/>
+  <ellipse cx="126" cy="88" rx="4" ry="3.5" fill="#E2657E" opacity="0.6"/>
+  <ellipse cx="68" cy="155" rx="4.5" ry="4" fill="#E2657E" opacity="0.6"/>
+  <ellipse cx="145" cy="160" rx="4" ry="4.5" fill="#E2657E" opacity="0.6"/>
+
+  <!-- Blushing Rosy Cheeks -->
+  <ellipse cx="78" cy="120" rx="10" ry="7" fill="#FF5E85" opacity="0.7"/>
+  <ellipse cx="132" cy="120" rx="10" ry="7" fill="#FF5E85" opacity="0.7"/>
+
+  <!-- Pants (Lime Green with Purple Flowers) -->
+  <path d="M 54 180 
+           Q 105 192 156 180 
+           L 156 220 
+           L 122 220 
+           L 105 204 
+           L 88 220 
+           L 54 220 Z" 
+        fill="#A3E635" stroke="#2B1500" stroke-width="3"/>
+
+  <!-- Purple Flowers on Shorts -->
+  <!-- Flower 1 -->
+  <g transform="translate(78, 200)">
+    <circle cx="-5" cy="0" r="5" fill="#9333EA"/>
+    <circle cx="5" cy="0" r="5" fill="#9333EA"/>
+    <circle cx="0" cy="-5" r="5" fill="#9333EA"/>
+    <circle cx="0" cy="5" r="5" fill="#9333EA"/>
+    <circle cx="0" cy="0" r="3" fill="#A3E635"/>
+  </g>
+  <!-- Flower 2 -->
+  <g transform="translate(132, 202)">
+    <circle cx="-5" cy="0" r="5" fill="#9333EA"/>
+    <circle cx="5" cy="0" r="5" fill="#9333EA"/>
+    <circle cx="0" cy="-5" r="5" fill="#9333EA"/>
+    <circle cx="0" cy="5" r="5" fill="#9333EA"/>
+    <circle cx="0" cy="0" r="3" fill="#A3E635"/>
+  </g>
+
+  <!-- Belly Button -->
+  <path d="M 101 170 Q 105 174 109 170" fill="none" stroke="#2B1500" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Eyebrows (Z-like lines) -->
+  <path d="M 88 75 L 96 79 L 89 84" fill="none" stroke="#2B1500" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 122 75 L 114 79 L 121 84" fill="none" stroke="#2B1500" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Big Sparkly Eyes -->
+  <ellipse cx="94" cy="94" rx="9" ry="13" fill="#FFFFFF" stroke="#2B1500" stroke-width="2.8"/>
+  <circle cx="97" cy="95" r="4.8" fill="#1A1A1A"/>
+  <circle cx="99" cy="92" r="2" fill="#FFFFFF"/>
+
+  <ellipse cx="116" cy="94" rx="9" ry="13" fill="#FFFFFF" stroke="#2B1500" stroke-width="2.8"/>
+  <circle cx="113" cy="95" r="4.8" fill="#1A1A1A"/>
+  <circle cx="115" cy="92" r="2" fill="#FFFFFF"/>
+
+  <!-- Happy Laughing Smile -->
+  <path d="M 85 116 C 92 146, 118 146, 125 116 C 105 122, 105 122, 85 116 Z" 
+        fill="#5C000B" stroke="#2B1500" stroke-width="2.8"/>
+  <path d="M 96 132 C 105 122, 115 122, 119 132 Z" fill="#FF7388"/>
+
+  <!-- FESTIVE PARTY HAT ON PATRICK'S POINTY HEAD -->
+  <g transform="rotate(-6 105 20)">
+    <polygon points="105,-20 86,34 124,34" fill="url(#pat-hat-grad)" stroke="#2B1500" stroke-width="2.8"/>
+    <!-- Yellow Zigzag stripes -->
+    <path d="M 90 24 Q 105 28 120 24" fill="none" stroke="#FDE047" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="105" cy="6" r="3.5" fill="#FF3366"/>
+    <!-- Top Fluffy Pom-Pom -->
+    <circle cx="105" cy="-22" r="7" fill="#FDE047" stroke="#2B1500" stroke-width="2"/>
+    <ellipse cx="105" cy="34" rx="20" ry="4" fill="#FDE047" stroke="#2B1500" stroke-width="2"/>
+  </g>
+</svg>
